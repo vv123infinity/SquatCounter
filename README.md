@@ -9,7 +9,7 @@ This is an iOS application based on the human pose estimation model PoseNet, whi
 
 ## Demo
 
-<img src="./img/squat_side.gif">
+<img src="./img/squat_side.gif" style="zoom:10%;">
 
 **Note: The squat count is now better suited for side standing!✅🚶‍♀️ Counting may be inaccurate when standing facing the camera head-on.**
 
