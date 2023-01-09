@@ -11,6 +11,7 @@ This is an iOS application based on the human pose estimation model PoseNet, whi
 
 <img src="./img/squat_side.gif" style="zoom:35%;">
 
+
 **Note: The squat count is now better suited for side standing!✅🚶‍♀️ Counting may be inaccurate when standing facing the camera head-on.**
 
 
@@ -20,7 +21,8 @@ PoseNet is a deep learning model that allows you to detect the pose of a person 
 
 For the side pose, we try to compute the angle of the main part of the human pose to test whether a user has done a deep squat. And we use the study result in [1] and the obvious of squat in daily to set a counting rule. Figure 1 demonstrates the side pose counting method and Table 1 shows a range of angles for reference.
 
-<img src="https://github.com/vv123infinity/SquatCounter/blob/main/img/side.png" style="zoom: 25%;" >
+
+![image](https://github.com/vv123infinity/SquatCounter/blob/main/img/side.png)
 <center>Figure 1: Side standing squat judgment method.</center>
 
 | Angle type | Relative Points | Range    |
